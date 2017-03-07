@@ -191,7 +191,7 @@ body::-webkit-scrollbar-corner {
 
 .c-header__content__h1 {
   padding: .5em;
-  font-family: "TeX Gyre Adventor Regular";
+  font-family: "TeX Gyre Adventor Regular", sans-serif;
   font-size: 3.5em;
   font-weight: 300;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ body::-webkit-scrollbar-corner {
           justify-content: center; }
 
 .c-navbar__logo {
-  font-family: "Damion";
+  font-family: "Damion", sans-serif;
   font-size: 4em;
   font-weight: 400;
   color: #fff; }
