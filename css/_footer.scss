@@ -1,0 +1,32 @@
+.c-footer {
+    display: flex;
+    padding: 10em 1em;
+    flex-direction: column;
+
+    text-align: center;
+
+    color: #3b3b3b;
+    border-top: solid 1px #dedede;
+    background-color: #f7f7f7;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.c-footer__logo {
+    font-family: "Damion";
+    font-size: 4em;
+    font-weight: 400;
+
+    color: #3b3b3b;
+}
+
+.copyright__span {
+    padding-top: 2em;
+
+    font-size: 1.4em;
+}
+
+.copyright__a {
+    font-weight: 700;
+}

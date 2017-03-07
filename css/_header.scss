@@ -1,0 +1,32 @@
+.c-header__content {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+
+    background: #101017 url(../img/header-img.jpg) no-repeat center/cover;
+
+    justify-content: flex-end;
+}
+
+.c-header__content__headline {
+    display: flex;
+    margin-right: 20em;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.c-header__content__h1 {
+    padding: .5em;
+
+    font-family: "TeX Gyre Adventor Regular";
+    font-size: 3.5em;
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    color: #2e2e2f;
+    background-color: rgba(255, 255, 255, .5);
+}

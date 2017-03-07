@@ -1,0 +1,151 @@
+.c-section2 {
+    position: relative;
+
+    display: flex;
+    max-height: 582px;
+    flex-direction: column;
+
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+.c-section2__line--one {
+    display: flex;
+    height: 100px;
+}
+
+
+.line--one__div,
+.line--one__div2 {
+    height: 100%;
+
+    border: solid 1px #dedede;
+}
+
+.top {
+    margin-bottom: 5em;
+}
+.top::after {
+    display: block;
+    width: 20px;
+    margin-left: -10px;
+
+    content: "";
+
+    border-bottom: solid 1px #dedede;
+}
+
+.bottom {
+    position: relative;
+
+    margin-top: 5em;
+}
+
+.bottom::before {
+    position: absolute;
+    left: -10px;
+
+    width: 20px;
+
+    content: "";
+
+    border-top: solid 1px #dedede;
+}
+.c-section2__content {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 260px;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.c-section2__content__h1 {
+    margin-bottom: 1em;
+
+    font-size: 2.6em;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #727272;
+}
+
+.c-section2__content__p {
+    margin-bottom: 1.5em;
+
+    font-size: 1.8em;
+    line-height: 1.6em;
+
+    color: #969696;
+}
+
+.c-section2__content__span {
+    margin-bottom: 2em;
+
+    font-size: 1.5em;
+    font-weight: 700;
+
+    color: #696767;
+}
+
+.c-circle {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
+
+.fa-circle {
+    margin: 4em .5em 0 .5em;
+
+    cursor: pointer;
+
+    color: #dadada;
+}
+
+.c-testimonials--two,
+.c-testimonials--one,
+.c-testimonials--three {
+    max-width: 900px;
+    padding: 0 1em;
+    margin: auto;
+
+    background-color: #fff;
+}
+
+.c-testimonials--two,
+.c-testimonials--three {
+    display: none;
+}
+
+
+@media (max-width: 690px) {
+    .c-section2__content {
+        height: 280px;
+    }
+}
+
+@media (max-width: 590px) {
+    .c-section2__content {
+        height: 360px;
+    }
+}
+
+@media (max-width: 490px) {
+    .c-section2__content {
+        height: 420px;
+    }
+}
+
+@media (max-width: 367px) {
+    .c-section2__content {
+        height: 820px;
+    }
+}
