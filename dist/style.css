@@ -571,8 +571,16 @@ body::-webkit-scrollbar-corner {
     height: 360px; } }
 
 @media (max-width: 490px) {
-  .c-section2__content {
-    height: 420px; } }
+    .c-section2__content {
+        height: 420px;
+    }
+    .line--one__div,
+    .line--one__div2,
+    .top::after,
+    .bottom::before {
+        border: none;
+    }
+}
 
 @media (max-width: 367px) {
   .c-section2__content {
